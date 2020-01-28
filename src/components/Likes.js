@@ -5,11 +5,15 @@ import rubenBike from "../images/likes/ruben-bike.jpg"
 import rubenTravel from "../images/likes/ruben-travel.jpg"
 import rubenBasket from "../images/likes/ruben-basket.jpg"
 import rubenCrabing from "../images/likes/ruben-crabing.jpeg"
+
+
+
 function Likes() {
+
   return (
     <div className="likes-container">
 
-    <div className="likes-title">
+    <div className="likes-title" id="hola">
       <h1>What I love...</h1>
       </div>
 

@@ -1,5 +1,4 @@
 import React from "react";
-import ReactDOM from 'react-dom';
 import "./styles/App.css";
 import "./styles/Header.css"
 import "./styles/Welcome.css"
@@ -22,7 +21,7 @@ function App() {
       <Header />
       <Welcome/>
       <Portafolio/>
-      <Likes/>
+      <Likes />
       <Footer />
       </Router>
     </div>

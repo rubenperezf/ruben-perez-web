@@ -1,0 +1,81 @@
+.likes-container {
+    background-color: #659DBD;
+
+}
+.likes-title {
+    text-align: center;
+    margin-bottom: 40px;
+    padding-top: 40px;
+}
+.likes-card-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 0px 200px;
+    
+    
+    
+}
+.likes-card {
+    transform: translate(1%,0%);
+    width: 400px;
+    height: 270px;
+    background: white;
+    z-index: 1;
+    margin-bottom: 40px;
+    background-color: #659DBD;
+
+}
+.likes-card .image {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    
+}
+.likes-card .image img {
+    width: 100%;
+    transition: .5s;
+}
+.likes-card:hover .image img {
+    opacity: .9;
+    transform: translateX(30%);
+    border-radius: 100%;
+}
+.likes-card .details {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    transition: .5s;
+    transform: perspective(2000px) rotateY(-90deg);
+}
+.likes-card:hover .details {
+    transform: perspective(2000px) rotateY(0deg);
+}
+.likes-card .details .center {
+    padding: 20px;
+    text-align: center;
+    background: #fff;
+    position: absolute;
+    top: 20%;
+    transform: translateY(-50%);
+}
+.likes-card .details .center h1 {
+    margin: 0;
+    padding: 0;
+    color: #ff3636;
+    line-height: 20px;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.likes-card.details .center h1 span {
+    font-size: 14px;
+    color: #262626;
+}
+.likes-card .details .center p {
+    margin: 10px 0;
+    padding: 0;
+    color: #262626;
+}

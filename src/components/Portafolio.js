@@ -15,7 +15,7 @@ function Portafolio() {
         <div className="project-container">
             <div className="project-image-container">
         <Zoom>
-        <img src={parentsHelpParents} alt="parent help parents project" width="200"/>
+        <img src={parentsHelpParents} alt="parent help parents project" width="400"/>
         </Zoom> 
 
           </div>
@@ -38,7 +38,7 @@ function Portafolio() {
         <div className="project-container">
             <div className="project-image-container">
                <Zoom> 
-        <img src={jollo} alt="parent help parents project" width="200"/>
+        <img src={jollo} alt="parent help parents project" width="400"/>
          </Zoom> 
 
           </div>
@@ -61,7 +61,7 @@ function Portafolio() {
         <div className="project-container">
             <div className="project-image-container">
                <Zoom> 
-        <img src={matchingGame} alt="matching game project" width="200"/>
+        <img src={matchingGame} alt="matching game project" width="400"/>
         </Zoom> 
 
           </div>
@@ -84,7 +84,7 @@ function Portafolio() {
         <div className="project-container">
             <div className="project-image-container">
              <Zoom> 
-        <img src={matchingGame} alt="matching game project" width="200"/>
+        <img src={matchingGame} alt="matching game project" width="400"/>
         </Zoom> 
 
           </div>

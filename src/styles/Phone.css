@@ -58,6 +58,10 @@
         display: block;
         width: 400px;
     }
+    .project-image-container {
+        width: 100%;
+        text-align: center;
+    }
 
     /*Skills*/
 

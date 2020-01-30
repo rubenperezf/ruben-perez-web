@@ -1,9 +1,9 @@
-.portafolio-container {
+.portfolio-container {
     background-color: #FBEED1;
 
 
 }
-.portafolio-title {
+.portfolio-title {
     text-align: center;
     margin-bottom: 40px;
     padding-top: 40px;
@@ -15,8 +15,6 @@
     padding: 30px;
     
 }
-
-
 
 .project-container {
     display: flex;
@@ -58,10 +56,10 @@ padding-bottom: 20px;
     text-decoration: none;
     }
 
-    .more-projects-container a:hover{
-        text-decoration: none;
-        color: #FC4445;
-        }
+.more-projects-container a:hover{
+    text-decoration: none;
+    color: #FC4445;
+}
     
 
 

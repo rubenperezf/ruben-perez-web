@@ -39,7 +39,7 @@
 
 
     .welcome-container {
-        height: 500px;
+        height: 400px;
 
     }
     .welcome-container p {
@@ -67,7 +67,10 @@
 
     /*Likes*/
     .likes-card .image {
-        width: 400px;
+        width: 480px;
+    }
+    .tech-stack-container {
+        width: 480px;
     }
     
   }

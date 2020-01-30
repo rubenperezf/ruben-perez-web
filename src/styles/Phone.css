@@ -64,8 +64,12 @@
     .project-text-container{
         width: 300px;
         text-align: center;
-        border: 1px solid black;
+ 
     }
+    .tech-stack-container p{
+        width: 300px;
+    }
+    
 
     /*Skills*/
 
@@ -77,8 +81,5 @@
     .likes-card .image {
         width: 300px;
     }
-    .tech-stack-container p{
-        display: none;
-    }
-    
+  
   }

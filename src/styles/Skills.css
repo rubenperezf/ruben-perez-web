@@ -1,0 +1,33 @@
+.skills-container {
+    height: 600px;
+    background-color: #00072D;
+
+}
+.pictures-text-container {
+    display: flex;
+    justify-content: space-around;
+}
+.skills-picture{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.skills-picture img{
+    width: 500px;
+    height: 400px;
+}
+.skills-buttons{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+.skilss-buttons .buttons {
+    font-size: 40px
+}
+.skills-title h1 {
+    text-align: center;
+    color: #fff;
+    padding: 20px 0px;
+}

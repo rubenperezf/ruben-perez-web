@@ -1,5 +1,5 @@
 .likes-container {
-    background-color: #659DBD;
+    background-color: #0E6BA8;
 
 }
 .likes-title {
@@ -21,10 +21,10 @@
     transform: translate(1%,0%);
     width: 400px;
     height: 270px;
-    background: white;
+    background: #fff;
     z-index: 1;
     margin-bottom: 40px;
-    background-color: #659DBD;
+    background-color: #0E6BA8;
 
 }
 .likes-card .image {

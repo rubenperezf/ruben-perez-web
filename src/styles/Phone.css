@@ -1,6 +1,7 @@
 @media only screen and (max-width: 800px) {
     /*Welcome container*/
 
+
     .welcome-container {
         height: 500px;
 
@@ -19,6 +20,43 @@
     }
     .project-container {
         display: block;
+    }
+
+    /*Skills*/
+
+    .skills-picture {
+        display: none;
+    }
+
+    /*Likes*/
+    .likes-card .image {
+        width: 400px;
+    }
+    
+  }
+  @media only screen and (max-width: 480px) {
+    /*Welcome container*/
+
+
+    .welcome-container {
+        height: 500px;
+
+    }
+    .welcome-container p {
+        font-size: 30px;
+    }
+    .welcome-container h1 {
+        font-size: 40px;
+    }
+
+    /*Portafolio*/
+    .projects-container {
+        display: block;
+        
+    }
+    .project-container {
+        display: block;
+        width: 400px;
     }
 
     /*Skills*/

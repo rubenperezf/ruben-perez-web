@@ -8,6 +8,7 @@ import "./styles/Skills.css";
 import "./styles/Footer.css";
 import "./styles/GeneralButton.css";
 import "./styles/Resume.css";
+import "./styles/Phone.css"
 import { Router, Route, Switch } from "react-router-dom";
 import history from "./utils/history";
 import Skills from "./components/Skills";

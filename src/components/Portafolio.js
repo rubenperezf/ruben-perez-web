@@ -14,9 +14,9 @@ function Portafolio() {
       <div className="projects-container">
         <div className="project-container">
             <div className="project-image-container">
-        <Zoom>
-        <img src={parentsHelpParents} alt="parent help parents project" width="200"/>
-        </Zoom>
+        {/* <Zoom> */}
+        <img src={parentsHelpParents} alt="parent help parents project" />
+        {/* </Zoom img tiene que tener width 200> */ }
 
           </div>
           <div className="project-text-container">
@@ -37,9 +37,9 @@ function Portafolio() {
         </div>
         <div className="project-container">
             <div className="project-image-container">
-              <Zoom>
+              {/* <Zoom> */}
         <img src={jollo} alt="parent help parents project" width="200"/>
-        </Zoom>
+        {/* </Zoom> */}
 
           </div>
           <div className="project-text-container">
@@ -60,9 +60,9 @@ function Portafolio() {
 
         <div className="project-container">
             <div className="project-image-container">
-              <Zoom>
+              {/* <Zoom> */}
         <img src={matchingGame} alt="matching game project" width="200"/>
-        </Zoom>
+        {/* </Zoom> */}
 
           </div>
           <div className="project-text-container">
@@ -83,9 +83,9 @@ function Portafolio() {
 
         <div className="project-container">
             <div className="project-image-container">
-            <Zoom>
+            {/* <Zoom> */}
         <img src={matchingGame} alt="matching game project" width="200"/>
-        </Zoom>
+        {/* </Zoom> */}
 
           </div>
           <div className="project-text-container">

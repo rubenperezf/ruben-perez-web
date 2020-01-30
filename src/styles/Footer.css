@@ -1,1 +1,14 @@
+.footer-container {
+    background-color: #000;
+    color: white;
+    text-align: center;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
 
+.footer-container p {
+    color: #ACACAC;
+    
+}

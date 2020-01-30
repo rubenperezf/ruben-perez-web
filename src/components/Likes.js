@@ -9,7 +9,7 @@ import rubenCrabing from "../images/likes/ruben-crabing.jpeg";
 function Likes() {
   return (
     <div className="likes-container">
-      <div className="likes-title" id="hola">
+      <div className="likes-title" id="likes">
         <h1>What I love...</h1>
       </div>
 

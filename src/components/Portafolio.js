@@ -8,7 +8,7 @@ import 'react-medium-image-zoom/dist/styles.css'
 function Portafolio() {
   return (
     <div className="portafolio-container">
-      <div className="portafolio-title">
+      <div className="portafolio-title" id="portafolio">
         <h1>-Portafolio-</h1>
       </div>
       <div className="projects-container">

@@ -124,7 +124,7 @@ function Skills() {
   if (click1 === true) {
     return (
       <div className="skills-container">
-        <div className="skills-title">
+        <div className="skills-title" id="skills">
           <h1>My Skills</h1>
         </div>
         <div className="pictures-text-container">
@@ -184,7 +184,7 @@ function Skills() {
   } else if (click2 === true) {
     return (
       <div className="skills-container">
-        <div className="skills-title">
+        <div className="skills-title" id="skills">
           <h1>My Skills</h1>
         </div>
         <div className="pictures-text-container">
@@ -244,7 +244,7 @@ function Skills() {
   } else if (click4 === true) {
     return (
       <div className="skills-container">
-        <div className="skills-title">
+        <div className="skills-title" id="skills">
           <h1>My Skills</h1>
         </div>
         <div className="pictures-text-container">
@@ -304,7 +304,7 @@ function Skills() {
   } else if (click5 === true) {
     return (
       <div className="skills-container">
-        <div className="skills-title">
+        <div className="skills-title" id="skills">
           <h1>My Skills</h1>
         </div>
         <div className="pictures-text-container">
@@ -364,7 +364,7 @@ function Skills() {
   } else if (click6 === true) {
     return (
       <div className="skills-container">
-        <div className="skills-title">
+        <div className="skills-title" id="skills">
           <h1>My Skills</h1>
         </div>
         <div className="pictures-text-container">
@@ -424,7 +424,7 @@ function Skills() {
   } else if (click7 === true) {
     return (
       <div className="skills-container">
-        <div className="skills-title">
+        <div className="skills-title" id="skills">
           <h1>My Skills</h1>
         </div>
         <div className="pictures-text-container">
@@ -484,7 +484,7 @@ function Skills() {
   } else if (click8 === true) {
     return (
       <div className="skills-container">
-        <div className="skills-title">
+        <div className="skills-title" id="skills">
           <h1>My Skills</h1>
         </div>
         <div className="pictures-text-container">
@@ -544,7 +544,7 @@ function Skills() {
   } else if (click9 === true) {
     return (
       <div className="skills-container">
-        <div className="skills-title">
+        <div className="skills-title" id="skills">
           <h1>My Skills</h1>
         </div>
         <div className="pictures-text-container">
@@ -604,7 +604,7 @@ function Skills() {
   } else {
     return (
       <div className="skills-container">
-        <div className="skills-title">
+        <div className="skills-title" id="skills">
           <h1>My Skills</h1>
         </div>
         <div className="pictures-text-container">

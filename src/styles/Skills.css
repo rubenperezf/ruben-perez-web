@@ -20,8 +20,6 @@
 .skills-buttons{
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
-
 }
 .skilss-buttons .buttons {
     font-size: 40px

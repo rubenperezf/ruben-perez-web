@@ -6,6 +6,7 @@ import "./styles/Portafolio.css"
 import "./styles/Likes.css"
 import "./styles/Skills.css"
 import "./styles/Footer.css"
+import "./styles/GeneralButton.css"
 import { Router, Route, Switch } from "react-router-dom";
 import history from "./utils/history";
 import Skills from "./components/Skills"

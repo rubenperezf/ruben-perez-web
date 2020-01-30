@@ -13,15 +13,21 @@ function Welcome() {
       </div>
 
       <div className="box-1">
-        <div className="btn btn-one">
-          <span>HOVER ME</span>
-        </div>
-        <div className="btn btn-one">
-          <span>HOVER ME</span>
-        </div>
-        <div className="btn btn-one">
-          <span>HOVER ME</span>
-        </div>
+        <a href="#portafolio">
+          <div className="btn btn-one">
+            <span>PORTAFOLIO</span>
+          </div>
+        </a>
+        <a href="#skills">
+          <div className="btn btn-one">
+            <span>SKILLS</span>
+          </div>
+        </a>
+        <a href="#likes">
+          <div className="btn btn-one">
+            <span>LIKES</span>
+          </div>
+        </a>
       </div>
     </div>
   );

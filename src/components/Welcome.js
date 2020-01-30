@@ -23,6 +23,11 @@ function Welcome() {
             <span>SKILLS</span>
           </div>
         </a>
+        <a href="#resume">
+          <div className="btn btn-one">
+            <span>RESUME</span>
+          </div>
+        </a>
         <a href="#likes">
           <div className="btn btn-one">
             <span>LIKES</span>

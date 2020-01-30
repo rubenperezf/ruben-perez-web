@@ -67,10 +67,10 @@
 
     /*Likes*/
     .likes-card .image {
-        width: 480px;
+        width: 100%;
     }
-    .tech-stack-container {
-        width: 480px;
+    .tech-stack-container p{
+        width: 100%;
     }
     
   }

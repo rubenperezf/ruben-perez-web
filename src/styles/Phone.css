@@ -34,7 +34,7 @@
     }
     
   }
-  @media only screen and (max-width: 480px) {
+  @media only screen and (max-width: 500px) {
     /*Welcome container*/
 
 
@@ -59,8 +59,12 @@
         width: 400px;
     }
     .project-image-container {
-        width: 100%;
+        width: 300px;
+    }
+    .project-text-container{
+        width: 300px;
         text-align: center;
+        border: 1px solid black;
     }
 
     /*Skills*/

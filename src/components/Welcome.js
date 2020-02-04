@@ -33,6 +33,11 @@ function Welcome() {
             <span>LIKES</span>
           </div>
         </a>
+        <a href="/contact"  target="_blanck">
+          <div className="btn btn-one">
+            <span>CONTACT</span>
+          </div>
+        </a>
       </div>
     </div>
   );

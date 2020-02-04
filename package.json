@@ -12,7 +12,8 @@
     "react-medium-image-zoom": "^4.0.1",
     "react-router-dom": "^5.1.2",
     "react-router-hash-link": "^1.2.2",
-    "react-scripts": "3.3.0"
+    "react-scripts": "3.3.0",
+    "react-wufoo-embed": "^1.0.0"
   },
   "scripts": {
     "start": "react-scripts start",

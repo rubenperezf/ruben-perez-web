@@ -3,8 +3,6 @@ import parentsHelpParents from "../images/portfolio/parents-help-parents.png";
 import jollo from "../images/portfolio/jollo.png";
 import matchingGame from "../images/portfolio/matching-game.png";
 import cityProject from "../images/portfolio/city-project.png";
-import Zoom from "react-medium-image-zoom";
-import "react-medium-image-zoom/dist/styles.css";
 import { makeStyles } from "@material-ui/core/styles";
 import Modal from "@material-ui/core/Modal";
 
@@ -38,14 +36,37 @@ export default function Porfolio() {
   const classes = useStyles();
   // getModalStyle is not a pure function, we roll the style only on the first render
   const [modalStyle] = React.useState(getModalStyle);
-  const [open, setOpen] = React.useState(false);
-
-  const handleOpen = () => {
-    setOpen(true);
+  const [openParents, setOpenParents] = React.useState(false);
+  const [openJollo, setOpenJollo] = React.useState(false);
+  const [openGame, setOpenGame] = React.useState(false);
+  const [openCountries, setOpenCountries] = React.useState(false);
+  const handleOpenParents = () => {
+    setOpenParents(true);
   };
 
-  const handleClose = () => {
-    setOpen(false);
+  const handleCloseParents = () => {
+    setOpenParents(false);
+  };
+  const handleOpenJollo = () => {
+    setOpenJollo(true);
+  };
+
+  const handleCloseJollo = () => {
+    setOpenJollo(false);
+  };
+  const handleOpenGame = () => {
+    setOpenGame(true);
+  };
+
+  const handleCloseGame = () => {
+    setOpenGame(false);
+  };
+  const handleOpenCountries = () => {
+    setOpenCountries(true);
+  };
+
+  const handleCloseCountries = () => {
+    setOpenCountries(false);
   };
 
   return (
@@ -54,77 +75,77 @@ export default function Porfolio() {
         <h1>Portfolio</h1>
       </div>
 
-      <div className="project-container">
-        <div className="box-1">
-          <div className="btn btn-one" onClick={handleOpen}>
-            <span>Parents Help Parents</span>
-          </div>
+      <div className="box-1">
+        <div className="btn btn-one" onClick={handleOpenParents}>
+          <span>Parents Help Parents</span>
         </div>
-        <Modal
-          aria-labelledby="simple-modal-title"
-          aria-describedby="simple-modal-description"
-          open={open}
-          onClose={handleClose}
-        >
-          <div style={modalStyle} className={classes.paper}>
-            <img
-              src={parentsHelpParents}
-              alt="parent help parents project"
-              width="400"
-            />
-
-            <h1>Parents Help Parents</h1>
-            <p>
-              Final project at JRS Coding School. Parents Help Parents is an app
-              that helps families connect with other families so they can
-              collaborate with childcare at home.
-            </p>
-            <p>Tech Stack: React, Node.js, MongoDB, SendGrid, Auth0</p>
-            <a href="https://github.com/rubenperezf/parents-help-parents">
-              Github
-            </a>
-          </div>
-        </Modal>
       </div>
+      <Modal
+        aria-labelledby="simple-modal-title"
+        aria-describedby="simple-modal-description"
+        open={openParents}
+        onClose={handleCloseParents}
+      >
+        <div style={modalStyle} className={classes.paper}>
+          <img
+            src={parentsHelpParents}
+            alt="parent help parents project"
+            width="400"
+          />
 
-      <div className="project-container">
-        <div className="box-1">
-          <div className="btn btn-one" onClick={handleOpen}>
-            <span>Jollo</span>
-          </div>
+          <h1>Parents Help Parents</h1>
+          <p>
+            Final project at JRS Coding School. Parents Help Parents is an app
+            that helps families connect with other families so they can
+            collaborate with childcare at home.
+          </p>
+          <p>Tech Stack: React, Node.js, MongoDB, SendGrid, Auth0</p>
+          <a href="https://github.com/rubenperezf/parents-help-parents">
+            Github
+          </a>
         </div>
-        <Modal
-          aria-labelledby="simple-modal-title"
-          aria-describedby="simple-modal-description"
-          open={open}
-          onClose={handleClose}
-        >
-          <div style={modalStyle} className={classes.paper}>
-            <img src={jollo} alt="parent help parents project" width="400" />
+      </Modal>
 
-            <h1>Jollo</h1>
-            <p>
-              Final project at JRS Coding School. Parents Help Parents is an app
-              that helps families connect with other families so they can
-              collaborate with childcare at home.
-            </p>
-            <p>Tech Stack: React, Node.js, MongoDB, Auth0, Material UI</p>
-            <a href="https://github.com/ColbyBurke/the-pregame-app">Github</a>
-          </div>
-        </Modal>
+      <br></br>
+      <br></br>
+
+      <div className="box-1">
+        <div className="btn btn-one" onClick={handleOpenJollo}>
+          <span>Jollo</span>
+        </div>
       </div>
+      <Modal
+        aria-labelledby="simple-modal-title"
+        aria-describedby="simple-modal-description"
+        open={openJollo}
+        onClose={handleCloseJollo}
+      >
+        <div style={modalStyle} className={classes.paper}>
+          <img src={jollo} alt="parent help parents project" width="400" />
 
-      <div className="project-container">
-        <div className="box-1">
-          <div className="btn btn-one" onClick={handleOpen}>
+          <h1>Jollo</h1>
+          <p>
+            Final group project at JRS Coding school. Jollo is an app where
+            people can learn about and join social groups and events.
+          </p>
+          <p>Tech Stack: React, Node.js, MongoDB, SendGrid, Auth0</p>
+          <a href="https://github.com/ColbyBurke/the-pregame-app">Github</a>
+        </div>
+      </Modal>
+
+      <br></br>
+      <br></br>
+
+            <div className="box-1">
+          <div className="btn btn-one" onClick={handleOpenGame}>
             <span>Matching Game</span>
           </div>
         </div>
         <Modal
           aria-labelledby="simple-modal-title"
           aria-describedby="simple-modal-description"
-          open={open}
-          onClose={handleClose}
+          open={openGame}
+          onClose={handleCloseGame}
         >
           <div style={modalStyle} className={classes.paper}>
             <img
@@ -142,19 +163,20 @@ export default function Porfolio() {
             <a href="https://github.com/rubenperezf/matching-game">Github</a>
           </div>
         </Modal>
-      </div>
+<br></br>
+<br></br>
 
-      <div className="project-container">
+
         <div className="box-1">
-          <div className="btn btn-one" onClick={handleOpen}>
+          <div className="btn btn-one" onClick={handleOpenCountries}>
             <span>City Project</span>
           </div>
         </div>
         <Modal
           aria-labelledby="simple-modal-title"
           aria-describedby="simple-modal-description"
-          open={open}
-          onClose={handleClose}
+          open={openCountries}
+          onClose={handleCloseCountries}
         >
           <div style={modalStyle} className={classes.paper}>
             <img
@@ -169,11 +191,12 @@ export default function Porfolio() {
             <a href="https://github.com/rubenperezf/city-project-app">Github</a>
           </div>
         </Modal>
-      </div>
+
 
       <div className="more-projects-container">
         <a href="https://github.com/rubenperezf/">Visit my Github for more</a>
       </div>
     </div>
+
   );
 }

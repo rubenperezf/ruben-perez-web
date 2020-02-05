@@ -8,7 +8,7 @@ import twitter from "../images/social-media/twitter.png"
 function Footer() {
   return (
     <div className="footer-container">
-      <h1>Let me show what I am be able to do.</h1>
+      <h1>Let me show you what I am able to do.</h1>
       <p>&copy; 2020 Ruben Perez</p>
     <div className="social-media-container">
       <div class="btn_wrap">

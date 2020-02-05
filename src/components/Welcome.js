@@ -13,9 +13,9 @@ function Welcome() {
       </div>
 
       <div className="box-1">
-        <a href="#portafolio">
+        <a href="#portfolio">
           <div className="btn btn-one">
-            <span>PORTAFOLIO</span>
+            <span>PORTFOLIO</span>
           </div>
         </a>
         <a href="#skills">
@@ -30,7 +30,7 @@ function Welcome() {
         </a>
         <a href="#likes">
           <div className="btn btn-one">
-            <span>LIKES</span>
+            <span>INTERESTS</span>
           </div>
         </a>
         <a href="/contact"  target="_blanck">

@@ -1,6 +1,8 @@
 .portfolio-container {
-    background-color: #FBEED1;
-
+    background-color: #ff5e6c;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 
 }
 .portfolio-title {
@@ -8,58 +10,20 @@
     margin-bottom: 40px;
     padding-top: 40px;
 }
-.projects-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    padding: 30px;
-    
+.portfolio-container .box-1 {
+    color: #000;
 }
 
-.project-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    width: 700px;
-    padding: 20px;
-    margin-right: 20px;
-    margin-bottom: 20px;
-}
-.project-container h1,
-.project-container p,
-.project-container img,
-.project-container a {
-    margin-bottom: 10px;
-}
-.project-text-container p {
-    text-align: justify;
-}
-.project-text-container h1,
-.project-text-container a {
-    text-align: center;
-}
-.project-image-container {
-    width: 50%;
-}
-.project-text-container {
-    width: 50%;
-}
-.project-container img {
-    width: 300px;
-    height: 300px;
-}
 .more-projects-container {
-text-align: center;
-padding-bottom: 20px;
+    text-align: center;
+    margin: 40px;
 }
-.more-projects-container a{
+.more-projects-container a {
     text-decoration: none;
-    }
+    color: #fff;
 
-.more-projects-container a:hover{
-    text-decoration: none;
-    color: #FC4445;
 }
+.more-projects-container a:hover {
+ color: #00072D
     
-
-
+}

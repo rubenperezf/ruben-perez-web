@@ -6,7 +6,7 @@ import rubenTravel from "../images/likes/ruben-travel.jpg";
 import rubenBasket from "../images/likes/ruben-basket.jpg";
 import rubenCrabing from "../images/likes/ruben-crabing.jpeg";
 
-function Likes() {
+function Interests() {
   return (
     <div className="likes-container">
       <div className="likes-title" id="likes">
@@ -20,8 +20,8 @@ function Likes() {
           </div>
           <div className="details">
             <div className="center">
-              <h1>Relax</h1>
-              <p>Look for a cool places to rest.</p>
+              <h1>Relaxing</h1>
+              <p>Being in nature.</p>
             </div>
           </div>
         </div>
@@ -33,7 +33,7 @@ function Likes() {
           <div className="details">
             <div className="center">
               <h1>Cooking</h1>
-              <p>Allways looking for new recepies.</p>
+              <p>Looking for new recipes.</p>
             </div>
           </div>
         </div>
@@ -44,8 +44,8 @@ function Likes() {
           </div>
           <div className="details">
             <div className="center">
-              <h1>Sport</h1>
-              <p>Love to try new things.</p>
+              <h1>Excercising</h1>
+              <p>Playing different sports.</p>
             </div>
           </div>
         </div>
@@ -56,8 +56,8 @@ function Likes() {
           </div>
           <div className="details">
             <div className="center">
-              <h1>Travel</h1>
-              <p>Spain is always in the first position but I love to travel.</p>
+              <h1>Traveling</h1>
+              <p>Going to Spain and discovering new places.</p>
             </div>
           </div>
         </div>
@@ -80,8 +80,8 @@ function Likes() {
           </div>
           <div className="details">
             <div className="center">
-              <h1>Crabing</h1>
-              <p>Bring food to my table.</p>
+              <h1>Crabbing</h1>
+              <p>My favorite hobby.</p>
             </div>
           </div>
         </div>
@@ -90,4 +90,4 @@ function Likes() {
   );
 }
 
-export default Likes;
+export default Interests;
